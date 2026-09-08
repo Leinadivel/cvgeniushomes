@@ -150,7 +150,7 @@ a {
 }
 
 /* =========================
-   MEG-STYLE HERO
+   HERO
 ========================= */
 
 .hero-slider {
@@ -162,7 +162,7 @@ a {
   align-items: center;
 
   background:
-    url("/construction-hero.jpg")
+    url("/construction-hero.png")
     center center / cover no-repeat;
 
   overflow: hidden;

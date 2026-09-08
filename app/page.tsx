@@ -94,12 +94,13 @@ export default function Home() {
           {/* SERVICE 1 */}
           <div className="service-row">
 
-            <div className="service-image service-image-placeholder">
+            <div className="service-image">
               <span className="service-badge">Most Requested</span>
 
-              <span className="image-placeholder-text">
-                Residential Construction Image
-              </span>
+              <img
+                src="/residential-construction.png"
+                alt="Residential building construction"
+              />
             </div>
 
             <div className="service-info">
@@ -149,12 +150,13 @@ export default function Home() {
           {/* SERVICE 2 */}
           <div className="service-row">
 
-            <div className="service-image service-image-placeholder">
+            <div className="service-image">
               <span className="service-badge">Real Estate</span>
 
-              <span className="image-placeholder-text">
-                Property Development Image
-              </span>
+              <img
+                src="/property-development.png"
+                alt="Modern residential property development"
+              />
             </div>
 
             <div className="service-info">
@@ -204,12 +206,13 @@ export default function Home() {
           {/* SERVICE 3 */}
           <div className="service-row">
 
-            <div className="service-image service-image-placeholder">
+            <div className="service-image">
               <span className="service-badge gold-badge">Transformation</span>
 
-              <span className="image-placeholder-text">
-                Renovation Project Image
-              </span>
+              <img
+                src="/renovation-project.png"
+                alt="Property renovation and remodeling"
+              />
             </div>
 
             <div className="service-info">
@@ -259,14 +262,15 @@ export default function Home() {
           {/* SERVICE 4 */}
           <div className="service-row">
 
-            <div className="service-image service-image-placeholder">
+            <div className="service-image">
               <span className="service-badge dark-badge">
                 Professional Service
               </span>
 
-              <span className="image-placeholder-text">
-                Project Management Image
-              </span>
+              <img
+                src="/project-management.png"
+                alt="Construction project management team"
+              />
             </div>
 
             <div className="service-info">

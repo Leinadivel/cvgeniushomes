@@ -51,7 +51,10 @@ export default function AboutPage() {
         <div className="about-page-container about-intro-grid">
 
           <div className="about-image-placeholder">
-            <span>CVGeniusHomes Project Image</span>
+            <img
+              src="/company-project.png"
+              alt="CVGeniusHomes construction professionals reviewing a building project"
+            />
           </div>
 
           <div className="about-intro-content">
@@ -245,7 +248,10 @@ export default function AboutPage() {
           </div>
 
           <div className="about-image-placeholder about-workforce-image">
-            <span>Artisan Training / Construction Image</span>
+            <img
+              src="/artisan-training.png"
+              alt="Construction artisans receiving practical skills training"
+            />
           </div>
 
         </div>

@@ -4327,3 +4327,837 @@ a {
 
   cursor: not-allowed;
 }
+
+/* ==========================================
+   GLOBAL MOBILE FIX
+   Paste at the very bottom of globals.css
+========================================== */
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* -------------------------
+   MOBILE HEADER
+------------------------- */
+
+@media (max-width: 900px) {
+  .site-header {
+    position: relative;
+  }
+
+  .nav-container {
+    height: auto;
+    min-height: 72px;
+
+    padding: 12px 18px;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+  }
+
+  .brand {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .brand-icon {
+    width: 42px;
+    height: 42px;
+
+    flex-shrink: 0;
+
+    font-size: 15px;
+  }
+
+  .brand-name {
+    font-size: 16px;
+  }
+
+  .brand-tagline {
+    display: none;
+  }
+
+  .contact-btn {
+    padding: 10px 14px;
+
+    font-size: 12px;
+
+    white-space: nowrap;
+  }
+
+  .desktop-nav {
+    order: 3;
+
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 8px 15px;
+
+    padding: 10px 0 2px;
+
+    border-top: 1px solid #eeeeee;
+  }
+
+  .desktop-nav a {
+    font-size: 12px;
+  }
+}
+
+
+/* -------------------------
+   HOMEPAGE HERO
+------------------------- */
+
+@media (max-width: 650px) {
+  .hero-slider {
+    min-height: 520px;
+
+    background-position: center center;
+  }
+
+  .hero-overlay {
+    background: linear-gradient(
+      90deg,
+      rgba(16, 24, 32, 0.86) 0%,
+      rgba(16, 24, 32, 0.72) 60%,
+      rgba(16, 24, 32, 0.48) 100%
+    );
+  }
+
+  .hero-slide-content {
+    padding: 0 24px;
+  }
+
+  .hero-pill {
+    margin-bottom: 14px;
+
+    padding: 7px 13px;
+
+    font-size: 11px;
+  }
+
+  .hero-slide-content h1 {
+    max-width: 100%;
+
+    font-size: 36px;
+    line-height: 1.08;
+
+    letter-spacing: -1px;
+  }
+
+  .hero-slide-content p {
+    margin-top: 17px;
+
+    max-width: 100%;
+
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .slider-arrow {
+    width: 38px;
+    height: 38px;
+
+    font-size: 27px;
+  }
+
+  .slider-arrow-left {
+    left: 8px;
+  }
+
+  .slider-arrow-right {
+    right: 8px;
+  }
+
+  .slider-dots {
+    bottom: 15px;
+  }
+
+  .dot {
+    width: 22px;
+    height: 3px;
+  }
+}
+
+
+/* -------------------------
+   TRUST STRIP
+------------------------- */
+
+@media (max-width: 650px) {
+  .trust-strip-container {
+    grid-template-columns: 1fr 1fr;
+
+    gap: 14px;
+
+    padding: 20px 18px;
+  }
+
+  .trust-strip-container div {
+    font-size: 11px;
+    line-height: 1.4;
+  }
+}
+
+
+/* -------------------------
+   GLOBAL SECTIONS
+------------------------- */
+
+@media (max-width: 650px) {
+  .core-services,
+  .project-options,
+  .why-us,
+  .process-section,
+  .faq-section,
+  .about-intro,
+  .about-standards,
+  .about-workforce,
+  .services-intro,
+  .services-list-section,
+  .services-process,
+  .services-consultation,
+  .projects-intro,
+  .projects-gallery-section,
+  .project-categories,
+  .project-standards,
+  .training-intro,
+  .training-trades,
+  .training-programme,
+  .training-certification,
+  .training-pathway,
+  .training-apply,
+  .properties-intro,
+  .properties-list-section,
+  .property-types,
+  .property-process,
+  .property-confidence,
+  .property-enquiry-cta,
+  .contact-intro,
+  .contact-main-section,
+  .contact-options,
+  .contact-faq {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .section-heading {
+    margin-bottom: 38px;
+  }
+
+  .section-label {
+    min-width: 0;
+    width: fit-content;
+    max-width: 100%;
+
+    padding: 6px 14px;
+
+    gap: 10px;
+  }
+
+  .section-label span {
+    font-size: 10px;
+    letter-spacing: 1.4px;
+  }
+
+  .label-line {
+    width: 55px;
+  }
+
+  .section-heading h2 {
+    font-size: 27px;
+    line-height: 1.2;
+  }
+
+  .section-heading > p {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+}
+
+
+/* -------------------------
+   HOMEPAGE SERVICES
+------------------------- */
+
+@media (max-width: 700px) {
+  .service-row {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 0;
+
+    margin-bottom: 45px;
+
+    border: 1px solid #e2e5e8;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    background: #ffffff;
+  }
+
+  .service-image {
+    width: 100%;
+    min-height: 235px;
+
+    border-radius: 0;
+  }
+
+  .service-image img {
+    width: 100%;
+    height: 235px;
+
+    object-fit: cover;
+
+    display: block;
+  }
+
+  .service-badge {
+    top: 14px;
+    left: 14px;
+
+    padding: 7px 13px;
+
+    font-size: 10px;
+  }
+
+  .service-info {
+    padding: 24px 20px;
+  }
+
+  .service-category {
+    font-size: 13px;
+  }
+
+  .service-tag {
+    font-size: 9px;
+  }
+
+  .service-info h3 {
+    font-size: 22px;
+  }
+
+  .service-info > p {
+    font-size: 14px;
+  }
+
+  .service-features {
+    gap: 8px 13px;
+  }
+
+  .service-features span {
+    font-size: 12px;
+  }
+
+  .service-quote {
+    grid-column: auto;
+
+    padding: 22px 20px;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 10px;
+  }
+
+  .service-quote p {
+    margin-bottom: 8px;
+  }
+
+  .service-quote > a:not(.outline-btn),
+  .outline-btn {
+    width: 100%;
+  }
+
+  .service-quote > a:not(.outline-btn) {
+    margin-bottom: 5px;
+
+    text-align: left;
+  }
+
+  .outline-btn {
+    padding: 0 18px;
+  }
+}
+
+
+/* -------------------------
+   PROJECT OPTIONS
+------------------------- */
+
+@media (max-width: 650px) {
+  .project-option-card {
+    padding: 34px 22px 28px;
+  }
+
+  .option-badge {
+    position: static;
+
+    display: inline-block;
+
+    margin-bottom: 18px;
+
+    font-size: 10px;
+  }
+
+  .project-option-card h3 {
+    margin-top: 0;
+
+    font-size: 24px;
+  }
+
+  .project-option-card > p,
+  .project-option-card li {
+    font-size: 14px;
+  }
+
+  .option-link {
+    margin-top: 30px;
+
+    font-size: 14px;
+  }
+}
+
+
+/* -------------------------
+   WHY / PROCESS
+------------------------- */
+
+@media (max-width: 650px) {
+  .why-item {
+    max-width: 100%;
+  }
+
+  .why-item h3 {
+    font-size: 20px;
+  }
+
+  .why-item p {
+    font-size: 14px;
+  }
+
+  .process-card {
+    min-height: auto;
+
+    padding: 26px 20px;
+  }
+
+  .process-card h3 {
+    font-size: 19px;
+  }
+}
+
+
+/* -------------------------
+   FAQ
+------------------------- */
+
+@media (max-width: 650px) {
+  .faq-item summary {
+    padding: 18px 48px 18px 18px;
+
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  .faq-item summary::after {
+    right: 17px;
+  }
+
+  .faq-answer {
+    padding: 18px;
+  }
+
+  .faq-answer p {
+    font-size: 13px;
+  }
+}
+
+
+/* -------------------------
+   FINAL CTA
+------------------------- */
+
+@media (max-width: 650px) {
+  .final-cta {
+    padding: 62px 18px;
+  }
+
+  .final-cta h2 {
+    font-size: 30px;
+  }
+
+  .final-cta p {
+    font-size: 14px;
+  }
+
+  .final-cta-buttons {
+    width: 100%;
+  }
+
+  .cta-primary,
+  .cta-secondary {
+    width: 100%;
+    max-width: 340px;
+  }
+}
+
+
+/* -------------------------
+   FOOTER
+------------------------- */
+
+@media (max-width: 650px) {
+  .footer-main {
+    padding: 45px 20px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+
+    gap: 32px;
+  }
+
+  .footer-logo-row > span {
+    font-size: 21px;
+  }
+
+  .footer-column h3 {
+    margin-bottom: 15px;
+  }
+
+  .footer-column a {
+    margin-bottom: 12px;
+  }
+
+  .footer-tags {
+    gap: 8px;
+  }
+
+  .footer-tags span {
+    min-width: 0;
+
+    width: 100%;
+
+    max-width: 320px;
+  }
+}
+
+
+/* -------------------------
+   ALL INTERNAL PAGE HEROES
+------------------------- */
+
+@media (max-width: 650px) {
+  .about-hero,
+  .services-hero,
+  .projects-hero,
+  .training-hero,
+  .properties-hero,
+  .contact-hero {
+    min-height: 300px;
+
+    padding: 55px 20px;
+  }
+
+  .about-hero h1,
+  .services-hero h1,
+  .projects-hero h1,
+  .training-hero h1,
+  .properties-hero h1,
+  .contact-hero h1 {
+    font-size: 35px;
+    line-height: 1.1;
+  }
+
+  .about-hero p,
+  .services-hero p,
+  .projects-hero p,
+  .training-hero p,
+  .properties-hero p,
+  .contact-hero p {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+}
+
+
+/* -------------------------
+   ABOUT PAGE
+------------------------- */
+
+@media (max-width: 650px) {
+  .about-intro,
+  .about-workforce {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+
+  .about-image-placeholder {
+    min-height: 280px;
+  }
+
+  .about-image-placeholder img {
+    width: 100%;
+    height: 280px;
+
+    object-fit: cover;
+
+    border-radius: 16px;
+  }
+
+  .about-section-label {
+    min-width: 0;
+
+    width: fit-content;
+    max-width: 100%;
+  }
+
+  .about-section-label div {
+    width: 50px;
+  }
+
+  .about-intro-content h2,
+  .about-workforce-content h2 {
+    font-size: 27px;
+  }
+
+  .about-buttons {
+    width: 100%;
+
+    align-items: stretch;
+  }
+
+  .about-buttons a {
+    width: 100%;
+
+    text-align: center;
+  }
+}
+
+
+/* -------------------------
+   SERVICES PAGE
+------------------------- */
+
+@media (max-width: 650px) {
+  .services-list {
+    gap: 55px;
+  }
+
+  .services-detail-row {
+    gap: 25px;
+  }
+
+  .services-detail-image {
+    min-height: 260px;
+  }
+
+  .services-detail-image img {
+    width: 100%;
+    height: 260px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+  }
+
+  .services-detail-content h2 {
+    font-size: 27px;
+  }
+
+  .services-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-consultation-card {
+    padding: 26px 20px;
+  }
+}
+
+
+/* -------------------------
+   PROJECTS PAGE
+------------------------- */
+
+@media (max-width: 650px) {
+  .projects-grid {
+    gap: 24px;
+  }
+
+  .project-image-placeholder {
+    min-height: 240px;
+  }
+
+  .project-card-content {
+    padding: 22px 20px 25px;
+  }
+
+  .project-card-content h3 {
+    font-size: 20px;
+  }
+
+  .project-category-card {
+    min-height: auto;
+
+    padding: 25px 20px;
+  }
+
+  .project-standards-grid {
+    gap: 30px;
+  }
+}
+
+
+/* -------------------------
+   TRAINING PAGE
+------------------------- */
+
+@media (max-width: 650px) {
+  .training-intro,
+  .training-programme,
+  .training-apply {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+
+  .training-image-placeholder,
+  .training-large-placeholder {
+    min-height: 270px;
+  }
+
+  .training-intro-content h2,
+  .training-programme-content h2,
+  .training-apply-content h2 {
+    font-size: 27px;
+  }
+
+  .training-highlight-grid,
+  .trade-grid,
+  .certification-grid,
+  .pathway-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .trade-card,
+  .pathway-card {
+    min-height: auto;
+  }
+
+  .certification-card {
+    min-height: auto;
+
+    padding: 28px 21px;
+  }
+
+  .training-apply-card {
+    padding: 28px 21px;
+  }
+}
+
+
+/* -------------------------
+   PROPERTIES PAGE
+------------------------- */
+
+@media (max-width: 650px) {
+  .property-card {
+    width: 100%;
+  }
+
+  .property-image-placeholder {
+    min-height: 230px;
+  }
+
+  .property-card-content {
+    padding: 22px 19px;
+  }
+
+  .property-price-row {
+    align-items: stretch;
+  }
+
+  .property-price-row a {
+    width: 100%;
+
+    text-align: center;
+  }
+
+  .property-type-card,
+  .property-process-card {
+    min-height: auto;
+  }
+
+  .property-confidence-grid,
+  .property-enquiry-grid {
+    gap: 30px;
+  }
+
+  .property-confidence-image {
+    min-height: 280px;
+  }
+
+  .property-enquiry-card {
+    padding: 26px 20px;
+  }
+}
+
+
+/* -------------------------
+   CONTACT PAGE
+------------------------- */
+
+@media (max-width: 650px) {
+  .contact-main-grid {
+    gap: 30px;
+  }
+
+  .contact-form-card {
+    padding: 26px 18px;
+  }
+
+  .contact-form-card h2 {
+    font-size: 26px;
+  }
+
+  .contact-form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-field input,
+  .contact-field select,
+  .contact-field textarea {
+    font-size: 16px;
+  }
+
+  .contact-submit {
+    width: 100%;
+  }
+
+  .contact-options-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info-card,
+  .contact-direct-card {
+    padding: 23px 20px;
+  }
+}

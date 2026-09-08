@@ -448,8 +448,8 @@ export default function ServicesPage() {
               </p>
 
               <p className="footer-contact">Nigeria</p>
-              <p className="footer-contact">Phone: Coming Soon</p>
-              <p className="footer-contact">Email: Coming Soon</p>
+              <p className="footer-contact">Phone: +234 708 913 0311</p>
+              <p className="footer-contact">Email: hello@cvgeniushomes.com.ng</p>
             </div>
 
             <div className="footer-column">

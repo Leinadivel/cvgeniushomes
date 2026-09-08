@@ -136,12 +136,12 @@ export default function ContactPage() {
 
               <div className="contact-direct-item">
                 <small>PHONE</small>
-                <strong>Coming Soon</strong>
+                <strong>+234 708 913 0311</strong>
               </div>
 
               <div className="contact-direct-item">
                 <small>EMAIL</small>
-                <strong>Coming Soon</strong>
+                <strong>hello@cvgeniushomes.com.ng</strong>
               </div>
 
               <div className="contact-direct-item">
@@ -350,8 +350,8 @@ export default function ContactPage() {
               </p>
 
               <p className="footer-contact">Nigeria</p>
-              <p className="footer-contact">Phone: Coming Soon</p>
-              <p className="footer-contact">Email: Coming Soon</p>
+              <p className="footer-contact">Phone: +234 708 913 0311</p>
+              <p className="footer-contact">Email: hello@cvgeniushomes.com.ng</p>
             </div>
 
             <div className="footer-column">

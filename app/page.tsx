@@ -685,11 +685,11 @@ export default function Home() {
               </p>
 
               <p className="footer-contact">
-                Phone: Coming Soon
+                Phone: +234 708 913 0311
               </p>
 
               <p className="footer-contact">
-                Email: Coming Soon
+                Email: hello@cvgeniushomes.com.ng
               </p>
             </div>
 

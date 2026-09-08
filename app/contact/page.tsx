@@ -148,11 +148,6 @@ export default function ContactPage() {
                 <small>LOCATION</small>
                 <strong>Nigeria</strong>
               </div>
-
-              <p>
-                We will replace these placeholders with the company&apos;s
-                confirmed contact details before launch.
-              </p>
             </div>
           </div>
 

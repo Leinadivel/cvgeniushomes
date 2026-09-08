@@ -38,7 +38,10 @@ export async function POST(request: Request) {
       from: "CVGeniusHomes Website <onboarding@resend.dev>",
 
       // CHANGE THIS LATER TO THE CLIENT'S EMAIL
-      to: ["levidanielchinwendu@gmail.com"],
+      to: [
+        "levidanielchinwendu@gmail.com",
+        "hello@cvgeniushomes.com.ng",
+      ],
 
       replyTo: email,
 

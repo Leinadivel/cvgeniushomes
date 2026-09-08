@@ -1,3 +1,5 @@
+import TrainingApplication from "./TrainingApplication";
+
 export default function TrainingPage() {
   return (
     <main>
@@ -119,59 +121,96 @@ export default function TrainingPage() {
           </div>
 
           <div className="trade-grid">
-            <div className="trade-card">
+
+            <TrainingApplication
+              selectedTrade="Bricklaying"
+              cardTrigger
+            >
               <span className="trade-number">01</span>
+
               <h3>Bricklaying</h3>
+
               <p>
                 Learn practical masonry skills, blockwork, wall construction
                 and foundational site techniques.
               </p>
-            </div>
+            </TrainingApplication>
 
-            <div className="trade-card">
+
+            <TrainingApplication
+              selectedTrade="Carpentry & Joinery"
+              cardTrigger
+            >
               <span className="trade-number">02</span>
+
               <h3>Carpentry & Joinery</h3>
+
               <p>
                 Develop practical woodworking, framing, joinery and
                 construction carpentry skills.
               </p>
-            </div>
+            </TrainingApplication>
 
-            <div className="trade-card">
+
+            <TrainingApplication
+              selectedTrade="Plumbing"
+              cardTrigger
+            >
               <span className="trade-number">03</span>
+
               <h3>Plumbing</h3>
+
               <p>
                 Learn pipework, fittings, water systems and practical plumbing
                 installation techniques.
               </p>
-            </div>
+            </TrainingApplication>
 
-            <div className="trade-card">
+
+            <TrainingApplication
+              selectedTrade="Electrical Installation"
+              cardTrigger
+            >
               <span className="trade-number">04</span>
+
               <h3>Electrical Installation</h3>
+
               <p>
                 Build knowledge of electrical systems, wiring, fittings and
                 safe installation practices.
               </p>
-            </div>
+            </TrainingApplication>
 
-            <div className="trade-card">
+
+            <TrainingApplication
+              selectedTrade="Wall & Floor Tiling"
+              cardTrigger
+            >
               <span className="trade-number">05</span>
+
               <h3>Wall & Floor Tiling</h3>
+
               <p>
                 Learn surface preparation, measurement, tile installation,
                 alignment and finishing.
               </p>
-            </div>
+            </TrainingApplication>
 
-            <div className="trade-card">
+
+            <TrainingApplication
+              selectedTrade="Glazing"
+              cardTrigger
+            >
               <span className="trade-number">06</span>
+
               <h3>Glazing</h3>
+
               <p>
                 Gain practical experience in glass handling, installation,
                 fittings and finishing techniques.
               </p>
-            </div>
+            </TrainingApplication>
+
           </div>
         </div>
       </section>
@@ -382,9 +421,10 @@ export default function TrainingPage() {
               application process.
             </p>
 
-            <a href="/contact" className="training-apply-button">
-              Apply Now
-            </a>
+            <TrainingApplication
+              triggerText="Apply Now"
+              triggerClassName="training-apply-button"
+            />
           </div>
         </div>
       </section>
@@ -433,8 +473,8 @@ export default function TrainingPage() {
               </p>
 
               <p className="footer-contact">Nigeria</p>
-              <p className="footer-contact">Phone: Coming Soon</p>
-              <p className="footer-contact">Email: Coming Soon</p>
+              <p className="footer-contact">Phone: +234 708 913 0311</p>
+              <p className="footer-contact">Email: hello@cvgeniushomes.com.ng</p>
             </div>
 
             <div className="footer-column">
@@ -467,9 +507,10 @@ export default function TrainingPage() {
                 our 24-month apprenticeship programme?
               </p>
 
-              <a href="#apply" className="footer-action">
-                Apply for Training
-              </a>
+              <TrainingApplication
+                triggerText="Apply Now"
+                triggerClassName="footer-action"
+              />
 
               <a href="/contact" className="footer-action">
                 Contact the Institute

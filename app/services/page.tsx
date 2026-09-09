@@ -76,7 +76,10 @@ export default function ServicesPage() {
           {/* SERVICE 1 */}
           <div className="services-detail-row">
             <div className="services-detail-image">
-              <span>Residential Construction Image</span>
+              <img
+                src="/service-residential.png"
+                alt="Construction artisans receiving practical skills training"
+              />
             </div>
 
             <div className="services-detail-content">
@@ -147,14 +150,20 @@ export default function ServicesPage() {
             </div>
 
             <div className="services-detail-image">
-              <span>Property Development Image</span>
+              <img
+                src="/service-estate.png"
+                alt="Construction artisans receiving practical skills training"
+              />
             </div>
           </div>
 
           {/* SERVICE 3 */}
           <div className="services-detail-row">
             <div className="services-detail-image">
-              <span>Renovation Image</span>
+              <img
+                src="/service-renovation.png"
+                alt="Construction artisans receiving practical skills training"
+              />
             </div>
 
             <div className="services-detail-content">
@@ -224,14 +233,20 @@ export default function ServicesPage() {
             </div>
 
             <div className="services-detail-image">
-              <span>Project Management Image</span>
+              <img
+                src="/service-construction.png"
+                alt="Construction artisans receiving practical skills training"
+              />
             </div>
           </div>
 
           {/* SERVICE 5 */}
           <div className="services-detail-row">
             <div className="services-detail-image">
-              <span>Site Supervision Image</span>
+              <img
+                src="/service-supervision.png"
+                alt="Construction artisans receiving practical skills training"
+              />
             </div>
 
             <div className="services-detail-content">
@@ -303,7 +318,10 @@ export default function ServicesPage() {
             </div>
 
             <div className="services-detail-image">
-              <span>Skilled Artisan Workforce Image</span>
+              <img
+                src="/service-artisan.png"
+                alt="Construction artisans receiving practical skills training"
+              />
             </div>
           </div>
 

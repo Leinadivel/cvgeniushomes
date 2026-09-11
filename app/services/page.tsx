@@ -20,7 +20,7 @@ export default function ServicesPage() {
             <a href="/about">About Us</a>
             <a href="/services">Services</a>
             <a href="/projects">Projects</a>
-            <a href="/properties">Properties</a>
+            {/* <a href="/properties">Properties</a> */}
             <a href="/training">Training Institute</a>
           </nav>
 

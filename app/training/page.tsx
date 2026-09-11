@@ -22,7 +22,7 @@ export default function TrainingPage() {
             <a href="/about">About Us</a>
             <a href="/services">Services</a>
             <a href="/projects">Projects</a>
-            <a href="/properties">Properties</a>
+            {/* <a href="/properties">Properties</a> */}
             <a href="/training">Training Institute</a>
           </nav>
 
@@ -56,8 +56,12 @@ export default function TrainingPage() {
       {/* INTRO */}
       <section className="training-intro">
         <div className="training-page-container training-intro-grid">
-          <div className="training-image-placeholder">
-            <span>Construction Training Image</span>
+          <div className="project-image-placeholder">
+            <span className="project-status">Completed</span>
+            <img
+              src="/site-workforce-project.png"
+              alt="Construction artisans receiving practical skills training"
+            />
           </div>
 
           <div className="training-intro-content">
@@ -278,8 +282,11 @@ export default function TrainingPage() {
             </div>
           </div>
 
-          <div className="training-large-placeholder">
-            <span>Apprenticeship / Workshop Image</span>
+          <div className="services-detail-image">
+            <img
+              src="/service-artisan.png"
+              alt="Construction artisans receiving practical skills training"
+            />
           </div>
         </div>
       </section>

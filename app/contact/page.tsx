@@ -22,7 +22,7 @@ export default function ContactPage() {
             <a href="/about">About Us</a>
             <a href="/services">Services</a>
             <a href="/projects">Projects</a>
-            <a href="/properties">Properties</a>
+            {/* <a href="/properties">Properties</a> */}
             <a href="/training">Training Institute</a>
           </nav>
 
@@ -78,6 +78,30 @@ export default function ContactPage() {
 
           {/* CONTACT INFORMATION */}
           <div className="contact-information">
+            <div className="contact-direct-card">
+              <div className="about-section-label">
+                <span>CONTACT DETAILS</span>
+                <div></div>
+              </div>
+
+              <h3>Speak With Our Team</h3>
+
+              <div className="contact-direct-item">
+                <small>PHONE</small>
+                <strong>+234 708 913 0311</strong>
+              </div>
+
+              <div className="contact-direct-item">
+                <small>EMAIL</small>
+                <strong>hello@cvgeniushomes.com.ng</strong>
+              </div>
+
+              <div className="contact-direct-item">
+                <small>LOCATION</small>
+                <strong>Nigeria</strong>
+              </div>
+            </div>
+
             <div className="contact-info-card">
               <span className="contact-info-number">01</span>
 
@@ -124,30 +148,6 @@ export default function ContactPage() {
               <a href="/training">
                 View Training Programme
               </a>
-            </div>
-
-            <div className="contact-direct-card">
-              <div className="about-section-label">
-                <span>CONTACT DETAILS</span>
-                <div></div>
-              </div>
-
-              <h3>Speak With Our Team</h3>
-
-              <div className="contact-direct-item">
-                <small>PHONE</small>
-                <strong>+234 708 913 0311</strong>
-              </div>
-
-              <div className="contact-direct-item">
-                <small>EMAIL</small>
-                <strong>hello@cvgeniushomes.com.ng</strong>
-              </div>
-
-              <div className="contact-direct-item">
-                <small>LOCATION</small>
-                <strong>Nigeria</strong>
-              </div>
             </div>
           </div>
 

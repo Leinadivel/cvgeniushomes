@@ -20,7 +20,7 @@ export default function ProjectsPage() {
             <a href="/about">About Us</a>
             <a href="/services">Services</a>
             <a href="/projects">Projects</a>
-            <a href="/properties">Properties</a>
+            {/* <a href="/properties">Properties</a> */}
             <a href="/training">Training Institute</a>
           </nav>
 
@@ -77,7 +77,10 @@ export default function ProjectsPage() {
             <article className="project-card">
               <div className="project-image-placeholder">
                 <span className="project-status">Completed</span>
-                <span>Residential Project Image</span>
+                <img
+                  src="/residential-project.png"
+                  alt="Construction artisans receiving practical skills training"
+                />
               </div>
 
               <div className="project-card-content">
@@ -110,7 +113,10 @@ export default function ProjectsPage() {
             <article className="project-card">
               <div className="project-image-placeholder">
                 <span className="project-status ongoing-status">Ongoing</span>
-                <span>Property Development Image</span>
+                <img
+                  src="/property-development-project.png"
+                  alt="Construction artisans receiving practical skills training"
+                />
               </div>
 
               <div className="project-card-content">
@@ -142,7 +148,10 @@ export default function ProjectsPage() {
             <article className="project-card">
               <div className="project-image-placeholder">
                 <span className="project-status">Completed</span>
-                <span>Renovation Project Image</span>
+                <img
+                  src="/renovation-projects.png"
+                  alt="Construction artisans receiving practical skills training"
+                />
               </div>
 
               <div className="project-card-content">
@@ -175,7 +184,10 @@ export default function ProjectsPage() {
             <article className="project-card">
               <div className="project-image-placeholder">
                 <span className="project-status ongoing-status">Ongoing</span>
-                <span>Construction Site Image</span>
+                <img
+                  src="/construction-site-project.png"
+                  alt="Construction artisans receiving practical skills training"
+                />
               </div>
 
               <div className="project-card-content">
@@ -208,7 +220,10 @@ export default function ProjectsPage() {
             <article className="project-card">
               <div className="project-image-placeholder">
                 <span className="project-status">Completed</span>
-                <span>Interior Finishing Image</span>
+                <img
+                  src="/interior-finishing-project.png"
+                  alt="Construction artisans receiving practical skills training"
+                />
               </div>
 
               <div className="project-card-content">
@@ -241,7 +256,10 @@ export default function ProjectsPage() {
             <article className="project-card">
               <div className="project-image-placeholder">
                 <span className="project-status">Completed</span>
-                <span>Site Workforce Image</span>
+                <img
+                  src="/site-workforce-project.png"
+                  alt="Construction artisans receiving practical skills training"
+                />
               </div>
 
               <div className="project-card-content">
@@ -384,7 +402,10 @@ export default function ProjectsPage() {
           </div>
 
           <div className="project-large-placeholder">
-            <span>Featured Construction Project Image</span>
+            <img
+              src="/featured-construction-project.png"
+              alt="Construction artisans receiving practical skills training"
+            />
           </div>
 
         </div>

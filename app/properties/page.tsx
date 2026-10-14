@@ -8,7 +8,7 @@ export default function PropertiesPage() {
             <div className="brand-icon">CV</div>
 
             <div className="brand-text">
-              <span className="brand-name">CVGeniusHomes</span>
+              <span className="brand-name">CV Genius Homes</span>
               <span className="brand-tagline">
                 Construction & Real Estate
               </span>
@@ -550,7 +550,7 @@ export default function PropertiesPage() {
             <div className="footer-brand">
               <div className="footer-logo-row">
                 <div className="footer-logo">CV</div>
-                <span>CVGeniusHomes</span>
+                <span>CV Genius Homes</span>
               </div>
 
               <h4>
